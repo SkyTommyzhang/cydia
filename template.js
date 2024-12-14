@@ -57,14 +57,14 @@ var template = '\
 \
  \
 <nav class="tp-dync"><br> \
-	<a href="/index.html">Home</a><br><br> \
-	<a href="/projects.html">Projects</a><br><br> \
-	<a href="/repo/">Cydia repo</a><br><br> \
-	<a href="/tutorial-cydia-repo.html">Tutorial: How to host your own Cydia repo</a><br><br> \
-	<a href="/c-autoreleasepool.html">C-Autoreleasepool project</a><br><br> \
-	<a href="/surutcra.html">Surutcra - A Twitter client</a><br><br> \
-	<a href="/ncforward.html">NCForward - Forward your notifications</a><br><br> \
-    <a href="/common-theos-problems.html">A collection of common THEOS problems</a><br><br> \
+	<a href="cydia/index.html">Home</a><br><br> \
+	<a href="cydia/projects.html">Projects</a><br><br> \
+	<a href="cydia/repo/">Cydia repo</a><br><br> \
+	<a href="cydia/tutorial-cydia-repo.html">Tutorial: How to host your own Cydia repo</a><br><br> \
+	<a href="cydia/c-autoreleasepool.html">C-Autoreleasepool project</a><br><br> \
+	<a href="cydia/surutcra.html">Surutcra - A Twitter client</a><br><br> \
+	<a href="cydia/ncforward.html">NCForward - Forward your notifications</a><br><br> \
+    <a href="cydia/common-theos-problems.html">A collection of common THEOS problems</a><br><br> \
 	<a href="http://github.com/H6nry/" target="_blank">Github</a><br><br> \
 </nav> \
 <aside class="tp-dync"> \
@@ -73,7 +73,7 @@ var template = '\
 	--- Noticed how the website colors change during the day? ---<br> \
 	--- Repo page now shows the Packages on the repo (HTML5). ---<br> \
 \
-	<h4>Clicks</h4><iframe src="/counter.html" seamless="seamless" frameborder="0" style="width:125px; height:56px;"></iframe> \
+	<h4>Clicks</h4><iframe src="cydia/counter.html" seamless="seamless" frameborder="0" style="width:125px; height:56px;"></iframe> \
 </aside> \
 \
 <section class="tp-dync2"><br> \
@@ -161,7 +161,7 @@ function startAnimation() { //Here, we start our bad stuff.
 
 //Bad, hacky check to see if this browser supports what we do here .~.
 var tte = document.createElement('img');
-tte.setAttribute('src', '/Files/snowflake.svg');
+tte.setAttribute('src', 'cydia/Files/snowflake.svg');
 tte.style.transition = 'transform 0.1s linear';
 tte.style.width = '0px';
 tte.style.height = '0px';
