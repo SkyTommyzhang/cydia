@@ -24,9 +24,9 @@ var template = ' \
 ' + content + '\
 </div> \
 <hr> \
-<h3><a href="https://twitter.com/H6nry_/" target="_blank">Me on Twitter: H6nry_</a><br> \
+<h3><a href="https://x.com/H6nry_/" target="_blank">Me on X: H6nry_</a><br> \
 <a href="https://github.com/H6nry/" target="_blank">Me on Github: H6nry</a><br> \
-<a href="http://h6nry.github.io/" target="_blank">My Website</a></h3> \
+<a href="https://skytommyzhang.github.io/cydia/" target="_blank">My Website</a></h3> \
 </td> \
 \
 </tr> \
